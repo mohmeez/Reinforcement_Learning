@@ -28,3 +28,30 @@ Both are implemented from scratch using NumPy and trained on the `FrozenLake-v1`
 This project uses the classic **FrozenLake-v1** 4x4 map:
 
 
+## Project Workflow
+
+This project is split into two main stages:
+
+✅ train_Frozen_Lake.py
+
+    Trains both Q-learning and SARSA agents
+
+    Saves the learned Q-tables as .pkl files:
+
+    q_learning_q_table.pkl
+
+    sarsa_q_table.pkl
+
+    Also plots training curves and prints learned policy maps
+
+    📌 Run this file first to generate the saved Q-tables.
+
+👀 main.py
+
+    Loads the previously saved Q-tables
+
+    Renders the agent moving across the FrozenLake grid
+
+    You can select whether to render q_learning, sarsa, or both
+
+    Supports deterministic (is_slippery=False) and stochastic (is_slippery=True) versions
