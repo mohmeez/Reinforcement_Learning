@@ -4,7 +4,7 @@ This project demonstrates how two popular reinforcement learning algorithms — 
 
 ---
 
-## 📌 Algorithms
+##  Algorithms
 
 - **Q-learning**: Off-policy algorithm that learns from the best possible action.
 - **SARSA**: On-policy algorithm that learns from the actual action taken.
@@ -23,7 +23,7 @@ Both are implemented from scratch using NumPy and trained on the `FrozenLake-v1`
 
 ---
 
-## 🧠 Environment
+## Environment
 
 This project uses the classic **FrozenLake-v1** 4x4 map:
 
@@ -32,7 +32,7 @@ This project uses the classic **FrozenLake-v1** 4x4 map:
 
 This project is split into two main stages:
 
-✅ train_Frozen_Lake.py
+ train_Frozen_Lake.py
 
     Trains both Q-learning and SARSA agents
 
@@ -46,7 +46,7 @@ This project is split into two main stages:
 
     📌 Run this file first to generate the saved Q-tables.
 
-👀 main.py
+ main.py
 
     Loads the previously saved Q-tables
 
