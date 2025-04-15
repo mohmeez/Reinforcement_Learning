@@ -13,7 +13,7 @@ Both are implemented from scratch using NumPy and trained on the `FrozenLake-v1`
 
 ---
 
-## 📈 Features
+##  Features
 
 - Q-learning and SARSA training loops  
 - Epsilon-greedy exploration with decay  
